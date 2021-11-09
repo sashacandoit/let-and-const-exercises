@@ -1,0 +1,28 @@
+ES5 Global Constants
+
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+
+ES2015 Global Constants
+
+const PI = 3.14;
+PI = 42: //won't work
+
+
+-What is the difference between var and let?
+    Let = block scope / Var = function scope;
+    Let cannot redeclare / Var can redeclare;
+    Let is hoisted but uninitialized / Var is hoisted and initialized with undefined;
+
+
+-What is the difference between var and const?
+    Const = block scope / Var = function scope;
+    Const cannot redeclare / Var can redeclare;
+    Const cannot reassign / Var can reassign
+
+-What is the difference between let and const?
+    Const cannot reassign / Let can reassign
+
+-What is hoisting?
+    The process of lifting a variable and giving it space in memory before the rest of the code is read.
